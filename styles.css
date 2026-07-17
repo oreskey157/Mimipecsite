@@ -407,7 +407,7 @@ p{margin:0}
 .phs__slide{position:absolute;inset:0;background-size:cover;background-position:center;
   opacity:0;transition:opacity 1.1s ease;will-change:opacity,transform}
 .phs__slide.is-active{opacity:1;animation:kenburns 7s ease-out both}
-.phs__slide--video{background:#000}
+.phs__slide--video{background:#000 url(assets/photos/vid-audio.jpg) center/cover no-repeat}
 .phs__slide--video video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .phs__slide--video.is-active{animation:none}
 @keyframes kenburns{from{transform:scale(1.12)}to{transform:scale(1)}}
@@ -557,6 +557,7 @@ p{margin:0}
 .hm__tile{flex:0 0 auto;width:262px;height:188px;border-radius:16px;overflow:hidden;background:#15151a;
   box-shadow:0 14px 32px -18px rgba(0,0,0,.7)}
 .hm__tile img,.hm__tile video{width:100%;height:100%;object-fit:cover;display:block}
+.hm__tile--video{background:#000 url(assets/photos/vid-audio.jpg) center/cover no-repeat}
 .hm-veil{position:absolute;inset:0;z-index:1;pointer-events:none;
   background:linear-gradient(100deg,rgba(8,8,10,.96) 0%,rgba(8,8,10,.82) 36%,rgba(8,8,10,.46) 68%,rgba(8,8,10,.30) 100%)}
 
